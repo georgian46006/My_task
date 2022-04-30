@@ -1,4 +1,4 @@
-package net.smallacademy.firenote.auth;
+package net.hunter.mytask.auth;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -21,9 +21,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 
-import net.smallacademy.firenote.MainActivity;
-import net.smallacademy.firenote.R;
-import net.smallacademy.firenote.Splash;
+import net.hunter.mytask.MainActivity;
+import net.hunter.mytask.R;
 
 public class Login extends AppCompatActivity {
     EditText lEmail,lPassword;
@@ -40,7 +39,7 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Login to FireNotes");
+        getSupportActionBar().setTitle("Login to My Task");
 
         lEmail = findViewById(R.id.email);
         lPassword = findViewById(R.id.lPassword);

@@ -1,4 +1,4 @@
-package net.smallacademy.firenote.note;
+package net.hunter.mytask.note;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import net.smallacademy.firenote.R;
+import net.hunter.mytask.R;
 
 public class NoteDetails extends AppCompatActivity {
     Intent data;

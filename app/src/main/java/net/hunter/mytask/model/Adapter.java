@@ -1,4 +1,4 @@
-package net.smallacademy.firenote.model;
+package net.hunter.mytask.model;
 
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import net.smallacademy.firenote.note.NoteDetails;
-import net.smallacademy.firenote.R;
+import net.hunter.mytask.note.NoteDetails;
+import net.hunter.mytask.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +34,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder,final int position) {
             holder.noteTitle.setText(titles.get(position));
             holder.noteContent.setText(content.get(position));
             final int code = getRandomColor();

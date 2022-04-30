@@ -38,6 +38,7 @@
         app:backgroundTint="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/submit"
         app:maxImageSize="35dp"
         app:srcCompat="@drawable/ic_add_black_24dp" />
 

@@ -1,4 +1,4 @@
-package net.smallacademy.firenote.model;
+package net.hunter.mytask.model;
 
 public class Note {
     private String title;

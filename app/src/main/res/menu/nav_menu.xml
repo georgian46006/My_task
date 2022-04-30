@@ -16,19 +16,7 @@
                 android:title="Sync Notes" />
         </menu>
     </item>
-    <item android:title="Support">
-        <menu>
-            <item
-                android:id="@+id/rating"
-                android:icon="@drawable/ic_star_half_black_24dp"
-                android:title="Rate App" />
 
-            <item
-                android:id="@+id/shareapp"
-                android:icon="@drawable/ic_share_black_24dp"
-                android:title="shareapp" />
-        </menu>
-    </item>
     <item android:title="Logout">
         <menu>
             <item

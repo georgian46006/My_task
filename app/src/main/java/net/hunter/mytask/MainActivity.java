@@ -1,4 +1,4 @@
-package net.smallacademy.firenote;
+package net.hunter.mytask;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -11,6 +11,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -38,12 +39,12 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 
-import net.smallacademy.firenote.auth.Login;
-import net.smallacademy.firenote.auth.Register;
-import net.smallacademy.firenote.model.Note;
-import net.smallacademy.firenote.note.AddNote;
-import net.smallacademy.firenote.note.EditNote;
-import net.smallacademy.firenote.note.NoteDetails;
+import net.hunter.mytask.auth.Login;
+import net.hunter.mytask.auth.Register;
+import net.hunter.mytask.model.Note;
+import net.hunter.mytask.note.AddNote;
+import net.hunter.mytask.note.EditNote;
+import net.hunter.mytask.note.NoteDetails;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -219,7 +220,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             default:
-                Toast.makeText(this, "Coming soon.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Here it is!", Toast.LENGTH_SHORT).show();
         }
         return false;
     }
@@ -272,13 +273,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return super.onCreateOptionsMenu(menu);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if(item.getItemId() == R.id.settings){
-            Toast.makeText(this, "Settings Menu is Clicked.", Toast.LENGTH_SHORT).show();
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//        if(item.getItemId() == R.id.settings){
+//            Toast.makeText(this, "Settings Menu is Clicked.", Toast.LENGTH_SHORT).show();
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
     public class NoteViewHolder extends RecyclerView.ViewHolder{
         TextView noteTitle,noteContent;

@@ -43,6 +43,7 @@
         android:layout_margin="@dimen/fab_margin"
         app:backgroundTint="@color/colorPrimaryDark"
         app:maxImageSize="35dp"
+        android:contentDescription="@string/submit"
         app:srcCompat="@drawable/ic_mode_edit_black_24dp" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

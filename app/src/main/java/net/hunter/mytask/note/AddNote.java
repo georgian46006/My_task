@@ -1,4 +1,4 @@
-package net.smallacademy.firenote.note;
+package net.hunter.mytask.note;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
-import net.smallacademy.firenote.R;
+import net.hunter.mytask.R;
 
 import java.util.HashMap;
 import java.util.Map;

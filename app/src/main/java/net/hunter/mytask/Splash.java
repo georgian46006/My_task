@@ -1,4 +1,4 @@
-package net.smallacademy.firenote;
+package net.hunter.mytask;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

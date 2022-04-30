@@ -1,4 +1,4 @@
-package net.smallacademy.firenote.auth;
+package net.hunter.mytask.auth;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,8 +22,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserProfileChangeRequest;
 
-import net.smallacademy.firenote.MainActivity;
-import net.smallacademy.firenote.R;
+import net.hunter.mytask.MainActivity;
+import net.hunter.mytask.R;
 
 public class Register extends AppCompatActivity {
     EditText rUserName,rUserEmail,rUserPass,rUserConfPass;
@@ -36,7 +36,7 @@ public class Register extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        getSupportActionBar().setTitle("Connect to FireNotes");
+        getSupportActionBar().setTitle("Connect to My Task");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         rUserName = findViewById(R.id.userName);
