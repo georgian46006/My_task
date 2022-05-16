@@ -1,43 +1,6 @@
-# FireNotes
-Hello Everyone, Welcome to New Video Series on Android Note Taking App Tutorial With Firebase, in this series, we are going to build a note-taking application from start to finish and publish on google play store. 
-
-The Final App looks like as shown in the Intro video: 
-![Final Note Taking App](http://i3.ytimg.com/vi/aXQqEmHwGVU/maxresdefault.jpg)
-Full Playlist: https://www.youtube.com/playlist?list=PLlGT4GXi8_8eQPaxMYqh3c1oOLw3Iiph_
-
-The Features of This  Android Note Taking Application is : 
-1. Firebase Email Authentication 
-2. Firebase Anonymous Authentication 
-3. Create, Update, Delete Notes
-4. Display Firebase Data in RecyclerView 
-5. Android Splash Screen 
-6. Firebase Cloud Firestore for Storage and Many more. 
-
-This Tutorial series is packed with so much information and you are going to learn basic to advanced knowledge of various components along the way.
-
-I am really excited to see you along with this series with me and I hope by the end of this series you will be able to make similar applications with more advanced features on your own. 
-
-Source code is provided along with every video if you get any errors or got stuck along the way you can reach out to me at our social media groups. of right here in the youtube comments section. 
-
-Join Our Facebook group here:
-https://www.facebook.com/groups/smallacademy/
-
-Follow me at GitHub for early access to Source codes: 
-https://github.com/bikashthapa01
-
-We do have a blog, where I write more stuff about android app development: 
-https://smallacademy.co/blog/
-
-# How to Run this Project in Android Studio? 
-You should Download ZIP or clone the Repo to your computer. 
-Once the clone/Download is complete Open Android Studio 
-* Open Existing Android Studio Project 
-* Select the directory which contains Firenote App ( directory should display Android Studio Icon) 
-* Wait till Gradle build is complete 
-
-# How to Connect to your Own Firebase account? 
-For your convenience, the google-services.json file has been deleted from the original source code and you must connect your own firebase project to run this app. otherwise you may run into an error. 
-
-* To connect this app to your own Firebase project, you can use Firebase Assistant inside Android Studio 
-* Tools >> Firebase and Connect the App. 
-* Follow the Video instruction in Part 1 of this video series. 
+We have created a to-do list mobile application using android development with many functionalities like taking notes and maintain privacy using authorization system of firebase utilities and google services. So, every user can login using his/her account if any, or create a new account. To do list application will provide the user authentication system which will facilitate the user to keep his data or notes private. He will be able to sync the data using his login credentials. This kind of application is also being provided in the android mobile phones but does not provide the User Authentication System to keep the data Private and safe. There is also some extra functionalities like every individual note should be in float mode and only take the required area in which we can see the whole list. Colors of the notes should be varying so user can easily find their note and layout should seen more colorful. Apart from those we will upload this application on play store so anyone with android mobile phone can download this application and use it. 
+•	There are many applications for note taking available on play store but most of them does not have any authentication system to protect the notes so our main is to built an application in which only specific user can access his/her notes.
+•	The second advantage is of privacy. Due to authentication system every User can maintain the notes of their own separately in the same device. To do this each User have to login with their credentials and open their account.
+•	As every note is stored in separate and centralized fire store cloud database so they are protected from any physical damage to the device and the User can sync and access the all notes.
+•	Most of the applications have only space for content but in My Task application, each node is made up of two columns (title and column). In title column, the User can enter the title or date of the note so it become easier to find it afterwards.
+•	All the notes are listed from newest to oldest So it become easier to find and arrange the notes.
