@@ -1,5 +1,6 @@
 package net.hunter.mytask.note;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -21,6 +22,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
+import net.hunter.mytask.MainActivity;
 import net.hunter.mytask.R;
 
 import java.util.HashMap;
@@ -71,7 +73,9 @@ public class AddNote extends AppCompatActivity {
                     @Override
                     public void onSuccess(Void aVoid) {
                         Toast.makeText(AddNote.this, "Note Added.", Toast.LENGTH_SHORT).show();
-                        onBackPressed();
+//                        onBackPressed();
+                        Intent intent = new Intent(AddNote.this, MainActivity.class);
+                        startActivity(intent);
 
                     }
                 }).addOnFailureListener(new OnFailureListener() {
